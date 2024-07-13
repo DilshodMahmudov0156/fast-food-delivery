@@ -1,10 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router} from "react-router-dom";
+import RouterPart from "./parts/router-part";
 
 function App() {
   return (
     <div className="App">
-      <h1>Bismillah</h1>
+        <Router>
+            <RouterPart/>
+        </Router>
     </div>
   );
 }
