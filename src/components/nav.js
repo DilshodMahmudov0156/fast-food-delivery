@@ -20,6 +20,9 @@ function Nav() {
                             </span>
                         </button>
                     </Link>
+                    <button className="nav-btn">
+                        <i className="bi bi-list"></i>
+                    </button>
                 </ul>
             </div>
         </nav>
