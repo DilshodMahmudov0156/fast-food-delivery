@@ -20,10 +20,26 @@ function Section() {
                 modules={[Pagination, Navigation]}
                 className="mySwiper"
             >
-                <SwiperSlide><img src={img} alt="" className="img-fluid"/></SwiperSlide>
-                <SwiperSlide><img src={img} alt="" className="img-fluid"/></SwiperSlide>
-                <SwiperSlide><img src={img} alt="" className="img-fluid"/></SwiperSlide>
-                <SwiperSlide><img src={img} alt="" className="img-fluid"/></SwiperSlide>
+                <SwiperSlide>
+                    <div className="my-card">
+                        <img src={img} alt="" className="img-fluid"/>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="my-card">
+                        <img src={img} alt="" className="img-fluid"/>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="my-card">
+                        <img src={img} alt="" className="img-fluid"/>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="my-card">
+                        <img src={img} alt="" className="img-fluid"/>
+                    </div>
+                </SwiperSlide>
             </Swiper>
         </section>
     );
